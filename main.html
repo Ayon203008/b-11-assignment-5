@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-slate-50 container mx-auto">
+    <header class="mb-14 bg-white rounded-md shadow py-5">
+        <nav class="flex justify-between items-center  ">
+            <div class="flex justify-between items-center gap-3 ml-5">
+                <img src="assets/logo.png">
+                <h1 class="text-3xl">Dev<span class="font-bold">Board</span></h1>
+            </div>
+            <div class="mr-4" >
+
+                <button class="bg-blue-700 text-white font-semibold rounded px-7 py-3" id="back"> Back to Desk</button>
+                
+            </div>
+        </nav>
+    </nav>
+    </header>  
+    <main>
+        <section class="flex justify-center">
+            <span class="bg-white rounded p-3 mb-10 text-2xl font-bold ">BLogs</span>
+        </section>
+
+        <div class="mb-10`">
+            <div class="mb-3 bg-white shadow rounded p-2">
+                <h1 class="font-bold text-xl">Question-1: What are the different ways to select an element in DOM?</h1>
+            </div>
+            <div class="mb-3 bg-white shadow rounded p-2">
+                <h1 class="ml-3">The ways are-> <br>
+                    1.getElementById. <br>
+                    2.getElementsByClassName.<br>
+                    3.getElementsByTagName.<br>
+                    4.querySelector.<br>
+                    5.querySelectorAll.
+                </h1>
+            </div>
+        </div>
+
+
+        <div class="mb-10">
+            <div class="mb-3 bg-white shadow rounded p-2">
+                <h1 class="font-bold text-xl">Question-2:What are the difference between innerHTML,innerText and textContent</h1>
+            </div>
+            <div class="mb-3 bg-white shadow rounded p-2">
+                <h1 class="ml-3">TextContents is all text contained by an element and all its children that are for formatting purposes only. innerText returns all text contained by an element and all its child elements. innerHtml returns all text, including html tags, that is contained by an element. </h1>
+            </div>
+        </div>
+
+        <div class="mb-10">
+            <div class="mb-3 bg-white shadow rounded p-2">
+                <h1 class="font-bold text-xl">Question-3: What is event delegation in the DOM?</h1>
+            </div>
+
+            <div class="mb-3 bg-white shadow rounded p-2">
+                <h1 class="ml-3">In the DOM (Document Object Model), "event delegation" is a technique where you attach a single event listener to a parent element, allowing it to handle events triggered on its child elements, instead of adding separate listeners to each child element; this leverages the "event bubbling" mechanism where events triggered on a child element propagate up the DOM tree to its ancestors, enabling efficient event handling for dynamic content or large lists of elements. </h1>
+            </div>
+        </div>
+
+        <div class="mb-10">
+            <div class="mb-3 bg-white shadow rounded p-2">
+                <h1 class="font-bold text-xl">Question-4:What is event bubbling in the DOM ?</h1>
+            </div>
+            <div>
+                <h1 class="pl-3 mb-3 bg-white shadow rounded p-2">In the DOM (Document Object Model), "event bubbling" refers to the behavior where when an event occurs on an element, it triggers not only on that element but also propagates upwards through the DOM hierarchy, firing event handlers on its parent elements until it reaches the root of the document, essentially "bubbling up" the event chain; this allows you to capture events on a parent element even if the user interacted with a child element within it.  </h1>
+            </div>
+        </div>
+
+        <div class="mb-10">
+            <div class="mb-3 bg-white shadow rounded p-2">
+                <h1 class="font-bold text-xl"> Question-5: How do you create, add, and remove elements using JavaScript?</h1>
+            </div>
+
+            <div class="mb-3 bg-white shadow rounded p-2">
+                <h1 class="ml-3">To add, remove, and modify HTML elements using JavaScript, you can use methods like createElement , appendChild , removeChild , and properties like innerHTML and textContent . For example, to add an element, you can create it using document. createElement and then append it to a parent element using appendChild . </h1>
+            </div>
+        </div>
+    </main> 
+    <script src="js/index2.js"></script>
+</body>
+</html>

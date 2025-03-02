@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="mx-auto bg-slate-50 container ">
+
+
+
+    <header class="mb-14 bg-white rounded-md shadow py-5">
+        <nav class="flex justify-between items-center  ">
+            <div class="flex justify-between items-center gap-3 ml-5">
+                <img src="assets/logo.png">
+                <h1 class="text-3xl">Dev<span class="font-bold">Board</span></h1>
+            </div>
+            <div class="flex justify-between items-center gap-x-10">
+
+                <div class="flex items-center justify-between gap-2">
+                   <div id="image" class="cursor-pointer bg-white rounded-lg h-6 w-6">
+
+                       <img src="assets/checkbox.png">
+                   </div>
+                    <h1 class="font-bold text-2xl" id="number1234">25</h1>
+                </div>
+                <div >
+                    <img src="assets/theme-btn.png" class="w-6 mr-4" id="theme-btn" >
+                </div>
+            </div>
+        </nav>
+    </nav>
+    </header>    
+
+
+
+
+   <main class="flex justify-between ">
+
+
+    <section class="w-3/4 mr-10 mb-14 ml-10">
+        <div class="flex justify-between mb-15">
+
+
+            <div class="flex justify-between items-center bg-slate-100 rounded-md pr-16 pl-5 shadow">
+                <img src="assets/checkbox.png" class="w-6 h-6">
+                <div class="ml-5">
+                    
+                    <h1 class="font-semibold">Task Assigned</h1>   
+                    <h1 class="font-bold text-2xl" id="number">06</h1>    
+                </div>
+            </div>
+           
+
+
+
+
+            <div class="bg-blue-500 border rounded-md flex justify-start w-2/4 gap-6 items-center shadow cursor-pointer" id="discover"> 
+                <img src="assets/board.png" class="ml-8">
+                <h1 class="text-white font-semibold text-2xl">Discover Something<br> New Today!</h1>
+            </div>
+
+
+            <div class="flex justify-between bg-slate-100 p-10 rounded items-center pl-10 shadow" >
+                <img src="assets/calender.png ">
+                
+                <div class="ml-3">
+                    
+                    <h1 class=""> Wed ,</h1>
+                    <h1 class="font-bold">  Jul 28 2025</h1>
+                </div>
+
+                </div>
+                
+            </div>
+        </div>
+
+
+
+        <div class="grid grid-cols-3 gap-8">
+
+            <div class="bg-slate-100 shadow rounded-md"> 
+                <button class="bg-white rounded-md mb-5 mt-5 ml-5 ">ShopEase</button>
+                <h1 class="font-semibold text-xl mb-5  ml-5">Fix Mobile Button Issue </h1>
+                <h1 class="text-slate-500 mb-5  ml-5 mr-2 bg-white rounded-lg p-3">Store the user's preference in localStorage, update CSS variables dynamically.</h1>
+                <div class="flex justify-between mb-5  ml-5">
+                    <div>
+                        <h1 class="text-slate-500">Deadline</h1>
+                        <h1 class="font-bold"> 21 March 2025</h1>
+                    </div>
+                    <div>
+                        <button class="text-white bg-blue-600 rounded-md p-3 mr-5 px-10" id="btn-1">Completed</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="bg-slate-100 shadow rounded-md"> 
+                <button class="bg-white rounded-md mb-5 mt-5 ml-5">CloudSync</button>
+                <h1 class="font-semibold text-xl mb-5  ml-5">Add Dark Mode</h1>
+                <h1 class="text-slate-500 mb-5  ml-5 mr-2 bg-white rounded-lg p-3">Store the user's preference in localStorage, update CSS variables dynamically.</h1>
+                <div class="flex justify-between mb-5  ml-5">
+                    <div>
+                        <h1 class="text-slate-500">Deadline</h1>
+                        <h1 class="font-bold"> 21 March 2025</h1>
+                    </div>
+                    <div>
+                        <button class="text-white bg-blue-600 rounded-md p-3 mr-5 px-10" id="btn-2">Completed</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="bg-slate-100 shadow rounded-md"> 
+                <button class="bg-white rounded-md mb-5 mt-5 ml-5">SwiftPay</button>
+                <h1 class="font-semibold text-xl mb-5  ml-5">Optimize  Home page </h1>
+                <h1 class="text-slate-500 mb-5  ml-5 mr-2 bg-white rounded-lg p-3">Store the user's preference in localStorage, update CSS variables dynamically.</h1>
+                <div class="flex justify-between mb-5  ml-5">
+                    <div>
+                        <h1 class="text-slate-500">Deadline</h1>
+                        <h1 class="font-bold"> 21 March 2025</h1>
+                    </div>
+                    <div>
+                        <button class="text-white bg-blue-600 rounded-md p-3 mr-5 px-10" id="btn-3">Completed</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="bg-slate-100 shadow rounded-md"> 
+                <button class="bg-white rounded-md mb-5 mt-5 ml-5">GoogleLi</button>
+                <h1 class="font-semibold text-xl mb-5  ml-5">Integrate OpenAI API  </h1>
+                <h1 class="text-slate-500 mb-5  ml-5 mr-2 bg-white rounded-lg p-3">Store the user's preference in localStorage, update CSS variables dynamically.</h1>
+                <div class="flex justify-between mb-5  ml-5">
+                    <div>
+                        <h1 class="text-slate-500">Deadline</h1>
+                        <h1 class="font-bold"> 21 March 2025</h1>
+                    </div>
+                    <div>
+                        <button class="text-white bg-blue-600 rounded-md p-3 mr-5 px-10" id="btn-4">Completed</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="bg-slate-100 shadow rounded-md"> 
+                <button class="bg-white rounded-md mb-5 mt-5 ml-5">Glassdoor</button>
+                <h1 class="font-semibold text-xl mb-5  ml-5">Optimize  Home page </h1>
+                <h1 class="text-slate-500 mb-5  ml-5 mr-2 bg-white rounded-lg p-3">Store the user's preference in localStorage, update CSS variables dynamically.</h1>
+                <div class="flex justify-between mb-5  ml-5">
+                    <div>
+                        <h1 class="text-slate-500">Deadline</h1>
+                        <h1 class="font-bold"> 21 March 2025</h1>
+                    </div>
+                    <div>
+                        <button class="text-white bg-blue-600 rounded-md p-3 mr-5 px-10" id="btn-5">Completed</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="bg-slate-100 shadow rounded-md"> 
+                <button class="bg-white rounded-md mb-5 mt-5 ml-5">Meta</button>
+                <h1 class="font-semibold text-xl mb-5  ml-5">Add new emoji 🤲 </h1>
+                <h1 class="text-slate-500 mb-5  ml-5 mr-2 bg-white rounded-lg p-3">Store the user's preference in localStorage, update CSS variables dynamically.</h1>
+                <div class="flex justify-between mb-5  ml-5">
+                    <div>
+                        <h1 class="text-slate-500">Deadline</h1>
+                        <h1 class="font-bold"> 21 March 2025</h1>
+                    </div>
+                    <div>
+                        <button class="text-white bg-blue-600 rounded-md p-3 mr-5 px-10" id="btn-6">Completed</button>
+                    </div>
+                </div>
+            </div>
+               
+
+          
+           
+           
+         
+           
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="w-1/4 max-full shadow-lg">
+        <h1 class="text-center text-xl pt-3 font-semibold"><i class="fa-solid fa-rotate-right"></i> Activity Log</h1><br>
+        <div class="flex justify-center mb-8">
+            
+            <button class="bg-blue-500 rounded-lg text-center px-5 py-2 text-white font-semibold" id="clear-btn"">Clear History</button>
+        </div>
+        <div class="rounded p-4">
+            
+            <h1 id="notice1" class="p-5 font-semibold"> </h1>
+            <h1 id="notice2" class="p-5 font-semibold"> </h1>
+            <h1 id="notice3" class="p-5 font-semibold"> </h1>
+            <h1 id="notice4" class="p-5 font-semibold"> </h1>
+            <h1 id="notice5" class="p-5 font-semibold"> </h1>
+            <h1 id="notice6" class="p-5 font-semibold"> </h1>
+        </div>
+    </section>
+
+
+
+
+   </main>
+   <script src="js/index.js"></script>
+</body>
+</html>
